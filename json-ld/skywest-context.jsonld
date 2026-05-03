@@ -1,0 +1,152 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "skywest": "https://www.skywest.com/vocab#",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcterms": "http://purl.org/dc/terms/",
+
+    "Airline": {
+      "@id": "schema:Airline",
+      "@context": {
+        "iataCode": {
+          "@id": "schema:iataCode"
+        },
+        "icaoCode": {
+          "@id": "skywest:icaoCode"
+        },
+        "name": {
+          "@id": "schema:name"
+        },
+        "url": {
+          "@id": "schema:url",
+          "@type": "@id"
+        },
+        "description": {
+          "@id": "dcterms:description"
+        },
+        "foundingDate": {
+          "@id": "schema:foundingDate"
+        },
+        "numberOfEmployees": {
+          "@id": "schema:numberOfEmployees"
+        },
+        "headquarters": {
+          "@id": "schema:location"
+        }
+      }
+    },
+
+    "Flight": {
+      "@id": "schema:Flight",
+      "@context": {
+        "flightNumber": {
+          "@id": "schema:flightNumber"
+        },
+        "departureAirport": {
+          "@id": "schema:departureAirport",
+          "@type": "@id"
+        },
+        "arrivalAirport": {
+          "@id": "schema:arrivalAirport",
+          "@type": "@id"
+        },
+        "departureTime": {
+          "@id": "schema:departureTime",
+          "@type": "xsd:dateTime"
+        },
+        "arrivalTime": {
+          "@id": "schema:arrivalTime",
+          "@type": "xsd:dateTime"
+        },
+        "aircraft": {
+          "@id": "skywest:aircraft"
+        },
+        "flightStatus": {
+          "@id": "skywest:flightStatus"
+        },
+        "operatingAirline": {
+          "@id": "schema:provider"
+        },
+        "marketingAirline": {
+          "@id": "skywest:marketingAirline"
+        }
+      }
+    },
+
+    "Airport": {
+      "@id": "schema:Airport",
+      "@context": {
+        "iataCode": {
+          "@id": "schema:iataCode"
+        },
+        "name": {
+          "@id": "schema:name"
+        },
+        "address": {
+          "@id": "schema:address"
+        },
+        "geo": {
+          "@id": "schema:geo"
+        }
+      }
+    },
+
+    "Aircraft": {
+      "@id": "skywest:Aircraft",
+      "@context": {
+        "tailNumber": {
+          "@id": "skywest:tailNumber"
+        },
+        "aircraftType": {
+          "@id": "skywest:aircraftType"
+        },
+        "seatCapacity": {
+          "@id": "skywest:seatCapacity"
+        },
+        "manufacturer": {
+          "@id": "schema:manufacturer"
+        }
+      }
+    },
+
+    "CapacityPurchaseAgreement": {
+      "@id": "skywest:CapacityPurchaseAgreement",
+      "@context": {
+        "majorCarrier": {
+          "@id": "skywest:majorCarrier"
+        },
+        "brandName": {
+          "@id": "skywest:brandName"
+        },
+        "startDate": {
+          "@id": "schema:startDate",
+          "@type": "xsd:date"
+        },
+        "endDate": {
+          "@id": "schema:endDate",
+          "@type": "xsd:date"
+        }
+      }
+    },
+
+    "CrewMember": {
+      "@id": "skywest:CrewMember",
+      "@context": {
+        "employeeId": {
+          "@id": "schema:identifier"
+        },
+        "role": {
+          "@id": "schema:jobTitle"
+        },
+        "homeBase": {
+          "@id": "skywest:homeBase"
+        },
+        "certifications": {
+          "@id": "skywest:certifications",
+          "@container": "@set"
+        }
+      }
+    }
+  }
+}

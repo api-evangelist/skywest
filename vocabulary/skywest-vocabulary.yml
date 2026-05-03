@@ -1,0 +1,202 @@
+vocabulary:
+  name: SkyWest Airlines Vocabulary
+  description: >-
+    Domain vocabulary for SkyWest Airlines, the largest regional airline in North
+    America. Covers aviation operations, flight services, crew management, and
+    regional airline partnerships.
+  created: '2026-05-02'
+  modified: '2026-05-02'
+  tags:
+    - Airlines
+    - Aviation
+    - Regional Airline
+    - Transportation
+
+terms:
+  # Airline Operations
+  - term: Regional Airline
+    definition: >-
+      An airline that operates smaller aircraft on shorter routes, typically
+      under code-share or capacity purchase agreements with major network carriers.
+    tags:
+      - Aviation
+      - Operations
+
+  - term: Code Share
+    definition: >-
+      A commercial arrangement where two or more airlines share the same flight,
+      allowing passengers to book under different airline brand codes for a single
+      operated flight.
+    tags:
+      - Aviation
+      - Partnerships
+
+  - term: Capacity Purchase Agreement (CPA)
+    definition: >-
+      A contractual arrangement where a major airline (United, Delta, American,
+      Alaska) pays SkyWest to operate flights using the major airline's brand,
+      covering operating costs plus a fixed fee per flight.
+    tags:
+      - Aviation
+      - Business
+
+  - term: Delta Connection
+    definition: >-
+      SkyWest Airlines flights operated on behalf of Delta Air Lines, branded
+      and sold as Delta Connection service.
+    tags:
+      - Aviation
+      - Partnerships
+
+  - term: United Express
+    definition: >-
+      SkyWest Airlines flights operated on behalf of United Airlines, branded
+      and sold as United Express service.
+    tags:
+      - Aviation
+      - Partnerships
+
+  - term: American Eagle
+    definition: >-
+      SkyWest Airlines flights operated on behalf of American Airlines, branded
+      and sold as American Eagle service.
+    tags:
+      - Aviation
+      - Partnerships
+
+  - term: Alaska SkyWest
+    definition: >-
+      SkyWest Airlines flights operated on behalf of Alaska Airlines, branded
+      and sold as Alaska SkyWest service.
+    tags:
+      - Aviation
+      - Partnerships
+
+  # Fleet Terms
+  - term: CRJ (Canadair Regional Jet)
+    definition: >-
+      A family of regional jet aircraft manufactured by Bombardier (now MHIRJ).
+      SkyWest operates CRJ200, CRJ550, and CRJ900 variants.
+    tags:
+      - Aviation
+      - Fleet
+
+  - term: CRJ200
+    definition: >-
+      A 50-seat regional jet aircraft with two GE CF34 engines, operated by
+      SkyWest Airlines primarily on shorter regional routes.
+    tags:
+      - Aviation
+      - Fleet
+
+  - term: CRJ550
+    definition: >-
+      A 50-seat variant of the CRJ700 operated by SkyWest for United Express,
+      featuring premium first-class and economy sections with additional legroom.
+    tags:
+      - Aviation
+      - Fleet
+
+  - term: CRJ900
+    definition: >-
+      A 76-seat regional jet aircraft operated by SkyWest Airlines on higher-demand
+      regional routes, supporting capacity for medium-distance connections.
+    tags:
+      - Aviation
+      - Fleet
+
+  # Flight Data Terms
+  - term: IATA Code
+    definition: >-
+      International Air Transport Association two-letter designator. SkyWest's
+      IATA airline designator is OO.
+    tags:
+      - Aviation
+      - Identifiers
+
+  - term: ICAO Code
+    definition: >-
+      International Civil Aviation Organization four-letter designator. SkyWest's
+      ICAO code is SKW.
+    tags:
+      - Aviation
+      - Identifiers
+
+  - term: Flight Status
+    definition: >-
+      Real-time information about a flight's current state, including on-time,
+      delayed, canceled, boarding, departed, or arrived status.
+    tags:
+      - Aviation
+      - Flight Data
+
+  - term: Block Time
+    definition: >-
+      The total time from when an aircraft pushes back from the gate (block out)
+      to when it arrives at the destination gate (block in), used for crew
+      scheduling and airline performance metrics.
+    tags:
+      - Aviation
+      - Operations
+
+  - term: Turnaround Time
+    definition: >-
+      The time required to prepare an aircraft between flights, including
+      deplaning, cleaning, loading, fueling, boarding, and departure procedures.
+    tags:
+      - Aviation
+      - Operations
+
+  # Employee Portal
+  - term: SkyWestOnline
+    definition: >-
+      SkyWest Airlines' employee portal providing crew scheduling, payroll access,
+      training resources, and internal communications for pilots, flight attendants,
+      and ground personnel.
+    tags:
+      - Operations
+      - Employee Services
+
+  - term: Crew Scheduling
+    definition: >-
+      The process of assigning pilots and flight attendants to flights in compliance
+      with FAA regulations, union agreements, rest requirements, and airline
+      operational efficiency objectives.
+    tags:
+      - Aviation
+      - Operations
+
+  - term: Crew Pairing
+    definition: >-
+      A sequence of flights flown by a crew member starting and ending at their
+      home base, built to satisfy regulatory rest requirements and minimize costs.
+    tags:
+      - Aviation
+      - Operations
+
+  # Regulatory
+  - term: Part 121
+    definition: >-
+      FAA regulations governing scheduled air carrier operations, under which
+      SkyWest Airlines operates all commercial passenger flights.
+    tags:
+      - Regulatory
+      - Aviation
+
+  - term: Hub and Spoke
+    definition: >-
+      An airline network model where regional airlines like SkyWest feed passengers
+      from smaller markets into major airline hubs for connection to long-haul routes.
+    tags:
+      - Aviation
+      - Network
+
+  - term: Essential Air Service (EAS)
+    definition: >-
+      A US government program that subsidizes air service to small and remote
+      communities that would not otherwise receive commercial airline service,
+      supporting routes served by regional carriers like SkyWest.
+    tags:
+      - Aviation
+      - Government
+      - Regulatory
