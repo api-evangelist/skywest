@@ -40,7 +40,7 @@ apis:
       - url: https://www.skywest.com/about-skywest-airlines/facts
         type: FactSheet
       - url: json-ld/skywest-context.jsonld
-        type: JSON-LD
+        type: JSONLD
       - url: vocabulary/skywest-vocabulary.yml
         type: Vocabulary
     description: >-
@@ -67,7 +67,7 @@ common:
     url: https://www.flightradar24.com/data/airlines/oo-skw
   - type: Press
     url: https://www.skywest.com/about-skywest-airlines/press-room/
-  - type: JSON-LD
+  - type: JSONLD
     url: json-ld/skywest-context.jsonld
   - type: Vocabulary
     url: vocabulary/skywest-vocabulary.yml
