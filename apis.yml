@@ -50,6 +50,8 @@ apis:
       operates under IATA code OO / ICAO code SKW and serves 256 destinations
       across North America.
 common:
+  - type: DomainSecurity
+    url: security/skywest-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/skywestairlines
   - type: LinkedIn
