@@ -1,7 +1,9 @@
 ---
 title: 2025 ANNUAL REPORT - SkyWest Incorporated
 url: https://inc.skywest.com/assets/Uploads/AnnualReports/2025Annual-Report-and-Proxy-Statement.pdf
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"SkyWest" press release artificial intelligence'
 position: 2
 source: serpapi-google

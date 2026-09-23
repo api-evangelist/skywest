@@ -1,7 +1,9 @@
 ---
 title: Could AI Have Prevented SkyWest Airliner's Near Collision ...
 url: https://www.scientificamerican.com/article/could-ai-have-prevented-skywest-airliners-near-collision-with-a-b52-bomber/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"SkyWest" press release artificial intelligence'
 position: 4
 source: serpapi-google
