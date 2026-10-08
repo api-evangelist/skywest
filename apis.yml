@@ -73,6 +73,12 @@ apis:
       operates under IATA code OO / ICAO code SKW and serves 256 destinations
       across North America.
 common:
+  - type: Plans
+    url: plans/skywest-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/skywest-rate-limits.yml
+  - type: FinOps
+    url: finops/skywest-finops.yml
   - url: https://blog.skywest.com/feed/
     type: BlogRSS
   - type: DomainSecurity
